@@ -1,31 +1,38 @@
 \documentclass[12pt, twoside, a4paper]{book}
+% \doumentclass[openany] 可以去掉空白页...............
 \usepackage{CJK}
 \usepackage{graphicx}
+% \usepackage{unnumberedtotoc}
+\setcounter{tocdepth}{3}
 
 \begin{document}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{CJK}{UTF8}{gbsn}
-% 第一部分 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frontmatter
+\newcounter{y}
 \title{考研数学笔记}
 \author{张亚栋}
 \maketitle
 
-\renewcommand{\contentsname}{目录}
-\tableofcontents 
-
-\chapter{前言}
-	\paragraph{准备报考浙江大学计算机系研究生，开始准备复习，}
-	\centering A Renaissance person, also a Rookie.
-\chapter{高等数学·第七版}
-同济大学数学系编
-	\section*{上册}
-	\section*{下册}
-
-\chapter{线性代数·第六版}
-
+\part*{前言}
+\addcontentsline{toc}{part}{前言}
+	\centering
+	\paragraph{A Renaissance person, also a Rookie.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter
-\chapter*{}
+\part*{高等数学·第七版}
+\addcontentsline{toc}{part}{高等数学·第七版}
+	\part*{上册}
+    	\chapter*{第一章 函数与极限}
+        	\section*{第一节 映射与函数}
+            	\subsection*{一、映射}
+                	\subsubsection*{1. 概念}
+                    	\paragraph*{定义：}
+    \part*{下册}
+\part*{线性代数·第六版}
+\addcontentsline{toc}{part}{线性代数·第六版}
 
 \backmatter
 \end{CJK}
