@@ -5,3 +5,6 @@
 *** Introduction
 *** Propositions
 **** A *Proposition* is a declarative sentence(that is, a sentence that declares a fact) that is either ture or false, but not both.
+**** Proposition Calculus/Proposition Logic
+***** Definition 1
+****** Let /p/ be a proposition. The /negation/ of /p/, denoted by --| /p/
