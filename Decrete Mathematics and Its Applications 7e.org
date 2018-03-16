@@ -9,5 +9,5 @@
 ***** Definition 1
 ****** Let /p/ be a proposition. The /negation/ of /p/, denoted by /\neg p/, is the statement
        "It is not the case that p".
-****** The proposition /not p/ is read "not /p/". The truth value of the negation of /p/, /not p/, is the opposite of the truth value of /p/.
+****** The proposition /\neg p/ is read "not /p/". The truth value of the negation of /p/, /\neg p/, is the opposite of the truth value of /p/.
 
